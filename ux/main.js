@@ -1,5 +1,3 @@
-
-
 let body = document.querySelector('body');
 let main = document.querySelector('main');
 let menu_ic = document.querySelector('#pnt-it1');
@@ -8,7 +6,6 @@ let light = document.querySelector('#pnt-it5');
 let login_toggler = document.querySelector('#login-toggler');
 let login_container = document.querySelector('#login_wrapper');
 let overlay = document.querySelector('.overlay');
-// let small_sidebar_tg = document.querySelectorAll('.st');
 let st1 = document.querySelector('.st1');
 let st2 = document.querySelector('.st2');
 let st3 = document.querySelector('.st3');
@@ -33,76 +30,6 @@ const small_sidebar_tg = document.querySelector('.pro_navbar_top_div_left');
 
 
 
-
-
-
-
-
-
-
-// st_tg1.addEventListener('click', ()=>{
-    
-//     // console.log('op')
-//     small_sidebar.classList.toggle("active");
-    
-    
-// })
-
-// st.forEach((small_sidebarn) => {
-//     small_sidebarn.addEventListener('click',()=>{
-        
-        
-//         // menu_ic.classList.add('active');
-        
-//         if (small_sidebar.classList.contains('close')) {
-            
-//             small_sidebar.classList.remove('close')
-//             // console.log('All done!')
-//         }
-        
-//         else {
-            
-//             small_sidebar.classList.toggle('close')
-//             // console.log('Yeh baby!')
-//         }
-//         if(menu_ic.classList.contains('active')){
-            
-//             // console.log('hixycutdi5d2761111111')
-//             small_sidebar.classList.toggle('close')
-//             small_sidebar.classList.toggle('active');
-            
-//         }
-        
-        
-        
-//         // small_sidebar.classList.('close')
-//         // st1.classList.toggle('active1o1');
-//         small_sidebar.classList.toggle('active');
-        
-        
-//     })
-// })
-
-// menu_ic.addEventListener('click', () => {
-
-//     menu_ic.classList.toggle('active');
-//     small_sidebar.classList.toggle('active');
-//     if (small_sidebar.classList.contains('close')) {
-        
-//         small_sidebar.classList.remove('close')
-//         // console.log('All done!')
-//         main.addEventListener('click',()=>{
-//                 menu_ic.classList.remove('active');
-//                 small_sidebar.classList.remove('active');
-            
-//         })
-//     }
-//     else {
-//         small_sidebar.classList.toggle('close')
-//         // console.log('Yeh baby!')
-//     }
-    
-// })
 
 
 
