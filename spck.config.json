@@ -1,0 +1,8 @@
+{
+  "run": {
+    "type": "file",
+    "url": "https://www.google.com",
+    "file": "Jrzy/html/index.html",
+    "ignoreCurrent": true
+  }
+}
