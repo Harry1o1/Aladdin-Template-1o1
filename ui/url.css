@@ -1,6 +1,11 @@
 
 
+@import url(./pro-navbar-top.css); 
+@import url(./pro-sidebar-left.css); 
+@import url(./pro-sidebar-right.css); 
+@import url(./variables.css); 
 
-@import url(./small-sidebar.css);
-@import url(./pro_navbar_top.css);
-@import url(./right-sidebar.css);
+
+
+
+

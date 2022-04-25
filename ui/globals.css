@@ -1,9 +1,8 @@
 @import url(./tailwind.css);
 @import url(./openprops.css); 
 @import url(./animations/animations.css);
-@import url(./variables/variables.css);
+/* @import url(./variables/variables.css); */
 /* @import url(./components/components.css); */
-@import url(./components/components.css);
 @import url(./url.css);
 
 
@@ -36,7 +35,7 @@
 }
 body{
     
-    
+    background: #FFFFFF;
     min-height: 100vh;
     width: 100%;
     
