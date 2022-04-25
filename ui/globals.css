@@ -1,20 +1,17 @@
 @import url(./tailwind.css);
 @import url(./openprops.css); 
-@import url(./animations/animations.css);
-/* @import url(./variables/variables.css); */
-/* @import url(./components/components.css); */
-@import url(./url.css);
-
-
+@import url(./animation/animation.css);
+@import "variable/variable.css";
+@import "component/component.css";
 
     
  @keyframes skelaton{
     0%{
-        background: hsla(235, 0%, 100%, 1);
+        background: hsla(175, 100%, 99%, 1);
     }
     100%{
         
-        background: hsla(235, 100%, 50%, 1);
+        background: hsla(182, 100%, 92%, 1);
         
     }
  }
@@ -23,7 +20,7 @@
     
     margin: 0;
     padding: 0;
-    text-decoration: none !important;
+    text-decoration: none;
     list-style: none;
     
 }
@@ -202,7 +199,7 @@ footer{
     }
     .pc-ml-24{
         
-        margin-left: 28rem !important;
+        margin-left: 18rem !important;
     }
     
 

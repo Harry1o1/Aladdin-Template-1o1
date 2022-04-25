@@ -366,6 +366,24 @@
     --radius-conditional-6: clamp(0px, calc(100vw - 100%) * 1e5, var(--radius-6))
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (prefers-color-scheme:dark) {
     :where(html) {
         --shadow-strength: 25%;
@@ -634,7 +652,7 @@
 }
 
 :where(a[href]):visited {
-    color: var(--link-visited)
+    color: #000000
 }
 
 :focus-visible {
