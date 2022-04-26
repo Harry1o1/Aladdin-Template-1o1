@@ -19,7 +19,7 @@
 } */
 
 
-#pro-sidebar-left{
+.pro-sidebar-left{
     
 
     background: var(--sidebar-bg);
@@ -40,7 +40,7 @@
     padding-top: 90px;    
     z-index: 10;
 }
-#pro-sidebar-left.active{
+.pro-sidebar-left.active{
     
     width: 300px  ;
     min-height: 100vh  ;
@@ -203,14 +203,14 @@
 
 
 
-#pro-sidebar-left.close #psl-ul{
+.pro-sidebar-left.close #psl-ul{
     
     /* padding-top: 2rem  */ 
     /* padding: 1rem 0  ; */
 }
 
 
-#pro-sidebar-left.close #psl-ul li{
+.pro-sidebar-left.close #psl-ul li{
     
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -242,7 +242,7 @@
     } */
 }
 
-#pro-sidebar-left.close #psl-ul li:hover{
+.pro-sidebar-left.close #psl-ul li:hover{
     
     border-radius: 10px;
     animation: friday-glow 15s linear infinite;
@@ -256,7 +256,7 @@
     
     
 }
-#pro-sidebar-left.close #psl-ul li:hover ion-icon{
+.pro-sidebar-left.close #psl-ul li:hover ion-icon{
     
     animation: friday-glow 20s linear infinite;
     /* color: indigo  ; */
@@ -282,7 +282,7 @@
     
     
     /* #All khorafati{} */
-    #pro-sidebar-left.close{
+    .pro-sidebar-left.close{
         
         display: block  ;
         overflow: hidden;
@@ -297,7 +297,7 @@
         
         /* z-index: none  ; */
     }
-    #pro-sidebar-left.close .strat-line{
+    .pro-sidebar-left.close .strat-line{
         
         padding-top: 1.5rem;
         margin-top: 3rem;
@@ -305,7 +305,7 @@
     }
 
     
-    #pro-sidebar-left.close li,#pro-sidebar-left.close .st-main{
+    .pro-sidebar-left.close li,.pro-sidebar-left.close .st-main{
         
         
         overflow: hidden;
@@ -320,11 +320,11 @@
         margin: 0  ;
         padding: 0  ;
     }
-    #pro-sidebar-left.close a,#pro-sidebar-left.close .st a,#pro-sidebar-left.close ion-icon[name="chevron-forward-outline"]{
+    .pro-sidebar-left.close a,.pro-sidebar-left.close .st a,.pro-sidebar-left.close ion-icon[name="chevron-forward-outline"]{
         display: none  ;
     }
 
-    /* #pro-sidebar-left ion-icon{
+    /* .pro-sidebar-left ion-icon{
         
         min-width: 70px;
         
@@ -348,7 +348,7 @@
     
     
     
-    #pro-sidebar-left.active{
+    .pro-sidebar-left.active{
         
         width: 300px  ;
         min-height: 200vh  ;
@@ -356,16 +356,16 @@
         transition: all 0.5s linear  ;
         
     }
-    #pro-sidebar-left.active a,
-    #pro-sidebar-left.active ion-icon[name="chevron-forward-outline"] {
+    .pro-sidebar-left.active a,
+    .pro-sidebar-left.active ion-icon[name="chevron-forward-outline"] {
         display: block  ;
     }    
-    #pro-sidebar-left.active li,#pro-sidebar-left.active .st{
+    .pro-sidebar-left.active li,.pro-sidebar-left.active .st{
         
         max-width: 300px  ;
     }
 
-    /* #pro-sidebar-left.active .psl-li a{
+    /* .pro-sidebar-left.active .psl-li a{
         display: block;
     } */
 
