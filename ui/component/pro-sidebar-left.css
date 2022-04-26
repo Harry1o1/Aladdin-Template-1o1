@@ -46,7 +46,7 @@
     min-height: 100vh  ;
 }
 
-#ss-ul{
+#psl-ul{
     
     overflow-x: hidden;
     overflow-y: auto;
@@ -59,7 +59,7 @@
     
 }
 
-.ss-li #searchbar-container{
+.psl-li #searchbar-container{
     background: red  ;
 }
 /* .mt5{
@@ -67,7 +67,7 @@
     background: red !important;
     margin-top: 5rem !important;
 } */
-.ss-li{
+.psl-li{
     
     /* background: red !important; */
     display: flex;
@@ -79,7 +79,7 @@
     
     padding-left: 20px  ;
 }
-.ss-li:hover{
+.psl-li:hover{
     
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -87,14 +87,14 @@
     border: var(--border-color);
     transition: all 0.5s linear;
 }
-.ss-li:hover,.st:hover{
+.psl-li:hover,.st:hover{
 
     
     background: var(--primary1o1-bg);
     
     
 }
-/* .ss-li:last-child{
+/* .psl-li:last-child{
     
     background: red;
     border-bottom: var(--border-color);
@@ -203,14 +203,14 @@
 
 
 
-#pro-sidebar-left.close #ss-ul{
+#pro-sidebar-left.close #psl-ul{
     
     /* padding-top: 2rem  */ 
     /* padding: 1rem 0  ; */
 }
 
 
-#pro-sidebar-left.close #ss-ul li{
+#pro-sidebar-left.close #psl-ul li{
     
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -242,7 +242,7 @@
     } */
 }
 
-#pro-sidebar-left.close #ss-ul li:hover{
+#pro-sidebar-left.close #psl-ul li:hover{
     
     border-radius: 10px;
     animation: friday-glow 15s linear infinite;
@@ -256,7 +256,7 @@
     
     
 }
-#pro-sidebar-left.close #ss-ul li:hover ion-icon{
+#pro-sidebar-left.close #psl-ul li:hover ion-icon{
     
     animation: friday-glow 20s linear infinite;
     /* color: indigo  ; */
@@ -365,7 +365,7 @@
         max-width: 300px  ;
     }
 
-    /* #pro-sidebar-left.active .ss-li a{
+    /* #pro-sidebar-left.active .psl-li a{
         display: block;
     } */
 

@@ -10,9 +10,6 @@
 
 
 /* For Mobiles */
-    /* *{
-        background: #2A3BFF;
-    } */
     .pro_navbar_top{
         
         backdrop-filter:
@@ -22,7 +19,8 @@
         
         border-bottom: var(--border-color);
         
-        height: var(--pc-navbartop-height);
+        /* height: var(--pc-navbartop-height); */
+        height: 65px;
         width: 100%;
         
         position: fixed;
@@ -419,7 +417,7 @@
         
         
         position: fixed;
-        top: 60px;
+        top: 65px;
         left: 0;
         
     }
@@ -527,7 +525,7 @@
         .pro_navbar_top{
             
             padding: 0 20px;
-            
+            height: 80px;
           
         }
         .pro_navbar_top_ul{
